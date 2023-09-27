@@ -1,0 +1,104 @@
+@import "Etapas.css";
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+form{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.secaoOcorridos{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ddd;
+    box-shadow: 2px 2px 4px #dadada;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.ocorrido{
+    background-color: #e8e8e8;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    justify-content: center;
+}
+
+.ocorrido:hover{
+    background-color: #d1d1d19c;
+    border: 1px solid #878787;
+    box-shadow: 2px 2px 4px #5a5a5a5a;
+}
+
+.ocorridoText{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.ocorridoDesc{
+    display: flex;
+    flex-direction: column;
+    color: #4e4d4d;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.selecionarOcorrido{
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+
+.confirmaOcorrido{
+    width: 500px;
+    background-color: #5f5f5f;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 135px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+.confirmaOcorrido:hover{
+    background-color: #3e3e3e;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}

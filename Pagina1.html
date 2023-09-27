@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estiloPadrao.css">
+    <link rel="stylesheet" href="Etapas.css">
+    <link rel="stylesheet" href="Pagina1.css">
+    <title>Denúncia Online</title>
+</head>
+
+<body>
+    <header class="header">
+        <a class="voltaCabecalho" href="./home.html">
+            <nav class="voltar">
+                <img src="https://img.icons8.com/?size=256&id=40217&format=png" alt="voltar.png" class="voltarIcon">
+                <p class="voltarText">Voltar</p>
+            </nav>          
+        </a>
+        <section class="cabecalho">
+            <img src="https://delegaciavirtual.sc.gov.br/assets/estados/sc/imagens/logo-superior.png" alt="LogoPoliciaCivil.png" class="logoPC">
+            <div class="cabecalhoTexto">
+                <h1 class="policiaCivil">Polícia Civil</h1>
+                <h2 class="delegaciaVirtual">Delegacia Virtual</h2>
+            </div>
+        </section>
+    </header>
+
+    <main class="principal">
+        <section class="secaoEtapas">
+            <h1 class="titulo">Etapas da Denúncia</h1>
+            <p class="etapaAnterior">Motivo da Ocorrência</p>
+            <p class="etapaAtual">Local, Data e Hora do Ocorrido</p>
+            <p class="etapa">Envolvidos</p>
+            <p class="etapa">Relato do Ocorrido e Mídias</p>
+            <p class="etapa">Confirmação</p>
+        </section>
+        <section class="secaoData">
+            <h1 class="titulo">Local, Data e Hora</h1>
+            <form class="formularioData">
+                <div class="labelEcampo">
+                    <label class="label">Município*:</label>
+                    <input type="text" placeholder="Insira o nome do município da Ocorrência" class="campo" required>
+                </div>
+                <div class="labelEcampo">
+                    <label class="label">Bairro*:</label>
+                    <input type="text" placeholder="Insira o nome do bairro da Ocorrência" class="campo" required>
+                </div>
+                <div class="labelEcampo">
+                    <label class="label">Rua*:</label>
+                    <input type="text" placeholder="Insira o nome da rua da Ocorrência" class="campo" required>
+                </div>
+                <div class="labelEcampo">
+                    <label class="label">Número*:</label>
+                    <input type="text" placeholder="Insira o número do local da Ocorrência" class="campo" required>
+                </div>
+                <div class="labelEcampo">
+                    <label class="label">Referência:</label>
+                    <input type="text" placeholder="Insira uma referência do local da Ocorrência" class="campo">
+                </div>
+                <div class="dataHora">
+                    <div class="Data">
+                        <label class="label">Data*:</label>
+                        <input placeholder="Insira apenas números" type="text" onfocus="(this.type = 'date')"  id="date" class="campoDataHora" required>
+                    </div>
+                    <div class="Hora">
+                        <label class="label">Horário*:</label>
+                        <input placeholder="Insira o horário aproximado da Ocorrência" type="text" onfocus="(this.type = 'time')"  id="time" class="campoDataHora" required>
+                    </div>    
+                </div>
+            </form>
+            <button class="continuar">continuar</button>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="areaRodape">
+            <div class="divNumeros">
+                <div class="telefone">
+                    <img src="https://img.icons8.com/material-sharp/24/phone.png" alt="telefone.png" class="telefonePNG">
+                    <h1 class="footerH1">Denuncie por telefone</h1>
+                </div>
+                <p class="paragrafoFooter">197 - Polícia Civil</p>
+                <p class="paragrafoFooter">181 - Disque Denúncia</p>
+                <div class="whatsapp">
+                    <img src="https://img.icons8.com/material-outlined/24/whatsapp--v1.png" alt="whatsapp.png" class="whatsappPNG">
+                    <h1 class="footerH1">Denuncie pelo Whatsapp</h1>
+                </div>
+                    <p class="paragrafoFooter">(48) 98844-0011</p>
+            </div>
+            <div class="direitos">
+                <p class="paragrafoDireitos">Polícia Civil</p>
+                <p class="paragrafoDireitos">Delegacia de Polícia Virtual de Santa Catarina</p>
+                <p class="paragrafoDireitos">Sem direitos reservados, afinal isso é um trabalho de faculdade 2023</p>
+                <p class="feitoPor">Feito por Alisson Pokrywiecki da Silva e Vinicius Setti</p>
+            </div>
+            <div class="linksRodape">
+                <a href="https://sistemas.pc.sc.gov.br/duvidas-dv/#/" target="_blank" class="ancoraRodape">
+                    <img src="https://img.icons8.com/ios-filled/50/link--v1.png" alt="link.png" class="linkPNG">
+                    <p class="paragrafoLinks">Dúvidas DP Virtual</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

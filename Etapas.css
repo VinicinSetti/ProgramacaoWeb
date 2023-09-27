@@ -1,0 +1,58 @@
+.secaoEtapas{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: 5px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ddd;
+    box-shadow: 2px 2px 4px #dadada;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.etapa{
+    background-color: #e8e8e8;
+    font-size: 17px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 4px #dadada;
+}
+
+.etapaAnterior{
+    background-color: #e8e8e858;
+    color: rgba(0, 0, 0, 0.402);
+    font-size: 17px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 4px #dadada;
+}
+
+.etapaAtual{
+    background-color: #e8e8e8;
+    font-size: 17px;
+    border: 1px solid #828282;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 4px #dadada;
+}

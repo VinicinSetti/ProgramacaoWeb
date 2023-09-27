@@ -1,0 +1,207 @@
+.header{
+    background-color: #343A40;
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+    padding: 15px;
+}
+
+.voltaCabecalho{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    width: 92px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.voltarIcon{
+    width: 30px;
+    filter: invert();
+    display: block;
+}
+
+.voltarText{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.voltar{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 92px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.voltaCabecalho:hover{
+    background-color: #4c4d4d;
+}
+
+.logoPC{
+    width: 100px;
+    display: block;
+    margin-right: 15px;
+}
+
+.policiaCivil{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+.delegaciaVirtual{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+.cabecalhoTexto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rodape{
+    font-family: sans-serif;
+    background-color: #343A40;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.areaRodape{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.divNumeros{
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    width: 250px;
+}
+
+.footerH1{
+    justify-content: left;
+    display: flex;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.telefonePNG{
+    height: 20px;
+    filter: invert();
+    display: block;
+    margin-top: 19px;
+}
+
+.telefone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.paragrafoFooter{
+    margin-left: 22px;
+}
+
+.whatsappPNG{
+    height: 20px;
+    filter: invert();
+    display: block;
+    margin-top: 19px;
+}
+
+.whatsapp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.direitos{
+    font-size: 13px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.paragrafoDireitos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feitoPor{
+    color: #7a7a7a9f;
+}
+
+.linksRodape{
+    font-size: 13px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.ancoraRodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.paragrafoLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.ancoraRodape:hover{
+    background-color: #4c4d4d
+}
+
+.linkPNG{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 15px;
+    width: 15px;
+    filter: invert();
+    margin-top: 4px;
+    margin-right: -8px;
+    padding: 5px;
+
+}
