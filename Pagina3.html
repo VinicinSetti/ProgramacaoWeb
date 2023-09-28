@@ -39,15 +39,15 @@
         <form class="formularioData">
             <div class="labelEcampo">
                 <label class="label">Descrição:</label>
-                <textarea id="descricao" placeholder="Descreva com detalhes o Ocorrido" class="areadeTexto" required></textarea>
+                <textarea id="descricao" placeholder="Descreva com detalhes o Ocorrido" class="areadeTexto campo" name="descricao" required></textarea>
             </div>
             <div class="labelEcampo">
                 <label class="label">Mídias:</label>
                 <p class="OBS">Certifique-se de fazer upload de um arquivo .zip com as mídias dentro</p>
-                <input type="file" class="campo">
+                <input type="file" class="campo" id="campoImagem" name="file">
             </div>
         </form>
-        <button class="continuar">continuar</button>
+        <a href="Pagina4.html" class="continuar" onclick="avancarPagina()">continuar</a>
     </section>
 
 </main>
@@ -71,7 +71,7 @@
             <p class="paragrafoDireitos">Polícia Civil</p>
             <p class="paragrafoDireitos">Delegacia de Polícia Virtual de Santa Catarina</p>
             <p class="paragrafoDireitos">Sem direitos reservados, afinal isso é um trabalho de faculdade 2023</p>
-            <p class="feitoPor">Feito por Alisson Pokrywiecki da Silva e Vinicius Setti</p>
+            <p class="feitoPor">Feito por Alisson Pokrywiecki da Silva, Vinicius Setti e Artur Costa de Souza</p>
         </div>
         <div class="linksRodape">
             <a href="https://sistemas.pc.sc.gov.br/duvidas-dv/#/" target="_blank" class="ancoraRodape">
@@ -82,14 +82,7 @@
     </div>
 </footer>
 
-<script>
-    const textoArmazenado = localStorage.getItem("municipio");
-    const textoArmazenado2 = localStorage.getItem("nomeComp")
-    if (textoArmazenado) {
-        document.getElementById("descricao").value = textoArmazenado + textoArmazenado2;
-    }
-
-</script>
+<script src="./FuncoesAvancarCarregar.js"></script>
 
 </body>
 </html>

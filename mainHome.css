@@ -31,7 +31,6 @@ form{
     border-radius: 10px;
     margin-bottom: 25px;
 }
-
 .ocorrido{
     background-color: #e8e8e8;
     border: 1px solid #CCC;
@@ -51,6 +50,13 @@ form{
     border: 1px solid #878787;
     box-shadow: 2px 2px 4px #5a5a5a5a;
 }
+
+.ocorrido.ativo{
+    background-color: #a3a3a39c;
+    border: 1px solid #878787;
+    box-shadow: 2px 2px 4px #5a5a5a5a;
+}
+
 
 .ocorridoText{
     display: flex;
