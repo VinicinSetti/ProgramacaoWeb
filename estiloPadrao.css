@@ -86,12 +86,14 @@
     color: white;
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .areaRodape{
     display: flex;
     justify-content: space-between;
     width: 90%;
+    margin-top: auto;
 }
 
 .divNumeros{

@@ -7,6 +7,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 700px;
+    height: 566px;
 }
 
 .secaoData{
@@ -35,14 +36,15 @@
 
 .dataHora{
     display: flex;
-    justify-content: left;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-direction: row;
     align-content: flex-start;
-    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .Hora{
-    justify-content: left;
+    margin-left: 15px;
 }
 
 .campoDataHora{
@@ -59,6 +61,7 @@
 .label{
     font-weight: bold;
     font-size: 14px;
+    margin-right: 5px;
 }
 
 .campo{
@@ -71,7 +74,6 @@
 
 .labelEcampo{
     display: flex;
-    flex-direction: column;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -91,7 +93,6 @@
     font-size: 20px;
     font-weight: bolder;
     width: 415px;
-    text-decoration: none;
 }
 
 .continuar:hover{
