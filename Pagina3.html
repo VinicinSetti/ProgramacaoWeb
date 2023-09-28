@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Relato do ocorrido e midia</title>
     <link rel="stylesheet" href="estiloPadrao.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="Etapas.css">
+    <link rel="stylesheet" href="Pagina3.css">
+    <title>Denúncia Online</title>
 </head>
 <body>
 <header class="header">
-    <a class="voltaCabecalho" href="./home.html">
+    <a class="voltaCabecalho" href="./Pagina2.html">
         <nav class="voltar">
             <img src="https://img.icons8.com/?size=256&id=40217&format=png" alt="voltar.png" class="voltarIcon">
             <p class="voltarText">Voltar</p>
@@ -29,11 +30,25 @@
         <h1 class="titulo">Etapas da Denúncia</h1>
         <p class="etapaAnterior">Motivo da Ocorrência</p>
         <p class="etapaAnterior">Local, Data e Hora do Ocorrido</p>
-        <p class="etapaAtual">Envolvidos</p>
-        <p class="etapa">Relato do Ocorrido e Mídias</p>
+        <p class="etapaAnterior">Envolvidos</p>
+        <p class="etapaAtual">Relato do Ocorrido e Mídias</p>
         <p class="etapa">Confirmação</p>
     </section>
-
+    <section class="secaoData">
+        <h1 class="titulo">Relato do Ocorrido e Mídias</h1>
+        <form class="formularioData">
+            <div class="labelEcampo">
+                <label class="label">Descrição:</label>
+                <textarea id="descricao" placeholder="Descreva com detalhes o Ocorrido" class="areadeTexto" required></textarea>
+            </div>
+            <div class="labelEcampo">
+                <label class="label">Mídias:</label>
+                <p class="OBS">Certifique-se de fazer upload de um arquivo .zip com as mídias dentro</p>
+                <input type="file" class="campo">
+            </div>
+        </form>
+        <button class="continuar">continuar</button>
+    </section>
 
 </main>
 
@@ -66,5 +81,15 @@
         </div>
     </div>
 </footer>
+
+<script>
+    const textoArmazenado = localStorage.getItem("municipio");
+    const textoArmazenado2 = localStorage.getItem("nomeComp")
+    if (textoArmazenado) {
+        document.getElementById("descricao").value = textoArmazenado + textoArmazenado2;
+    }
+
+</script>
+
 </body>
 </html>

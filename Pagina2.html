@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="Etapas.css">
     <link rel="stylesheet" href="Pagina2.css">
     <title>Denúncia Online</title>
+    <script>
+        function avancarPagina() {
+            const nomeComp = document.getElementById("nomeComp").value;
+
+            localStorage.setItem("nomeComp", nomeComp);
+
+            window.location.href = "Pagina3.html?nomeComp";
+        }
+    </script>
 </head>
 
 <body>
@@ -41,11 +50,11 @@
         <form class="formularioData">
             <div class="labelEcampo">
                 <label class="label">Nome Completo:</label>
-                <input type="text" placeholder="Insira o nome do município da Ocorrência" class="campo" required>
+                <input type="text" name="nome" id="nomeComp" placeholder="Insira o nome do município da Ocorrência" class="campo" required>
             </div>
             <div class="labelEcampo">
                 <label class="label">RG/CPF*:</label>
-                <input type="text" placeholder="Insira o nome do bairro da Ocorrência" class="campo" required>
+                <input type="text" name="nome" placeholder="Insira o nome do bairro da Ocorrência" class="campo" required>
             </div>
             <div class="labelEcampo">
                 <label class="label">Nome da Mãe*:</label>
@@ -76,7 +85,7 @@
                 <input placeholder="Insira o numero de documento do envolvido" type="text" id="docEnvol" class="campo" required>
             </div>
         </form>
-        <button class="continuar">continuar</button>
+        <a class="continuar" onclick="avancarPagina()" href="Pagina2.html">continuar</a>
     </section>
 </main>
 

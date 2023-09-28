@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="Etapas.css">
     <link rel="stylesheet" href="Pagina1.css">
     <title>Denúncia Online</title>
+
 </head>
 
 <body>
@@ -41,36 +42,36 @@
             <form class="formularioData">
                 <div class="labelEcampo">
                     <label class="label">Município*:</label>
-                    <input type="text" placeholder="Insira o nome do município da Ocorrência" class="campo" required>
+                    <input type="text" name="municipio" id="municipio" placeholder="Insira o nome do município da Ocorrência" class="campo" required>
                 </div>
                 <div class="labelEcampo">
                     <label class="label">Bairro*:</label>
-                    <input type="text" placeholder="Insira o nome do bairro da Ocorrência" class="campo" required>
+                    <input type="text" name="bairro" id="bairro" placeholder="Insira o nome do bairro da Ocorrência" class="campo" required>
                 </div>
                 <div class="labelEcampo">
                     <label class="label">Rua*:</label>
-                    <input type="text" placeholder="Insira o nome da rua da Ocorrência" class="campo" required>
+                    <input type="text" id="rua" name="rua" placeholder="Insira o nome da rua da Ocorrência" class="campo" required>
                 </div>
                 <div class="labelEcampo">
                     <label class="label">Número*:</label>
-                    <input type="text" placeholder="Insira o número do local da Ocorrência" class="campo" required>
+                    <input type="text" id="numero" name="numero" placeholder="Insira o número do local da Ocorrência" class="campo" required>
                 </div>
                 <div class="labelEcampo">
                     <label class="label">Referência:</label>
-                    <input type="text" placeholder="Insira uma referência do local da Ocorrência" class="campo">
+                    <input type="text" id="referencia" name="referencia" placeholder="Insira uma referência do local da Ocorrência" class="campo">
                 </div>
                 <div class="dataHora">
                     <div class="Data">
                         <label class="label">Data*:</label>
-                        <input placeholder="Insira apenas números" type="text" onfocus="(this.type = 'date')"  id="date" class="campoDataHora" required>
+                        <input  placeholder="Insira apenas números" id="data" name="data" type="text" onfocus="(this.type = 'date')"  id="date" class="campoDataHora" required>
                     </div>
                     <div class="Hora">
                         <label class="label">Horário*:</label>
-                        <input placeholder="Insira o horário aproximado da Ocorrência" type="text" onfocus="(this.type = 'time')"  id="time" class="campoDataHora" required>
+                        <input placeholder="Insira o horário aproximado da Ocorrência" name="horario" id="hora" type="text" onfocus="(this.type = 'time')"  id="time" class="campoDataHora" required>
                     </div>    
                 </div>
             </form>
-            <button class="continuar">continuar</button>
+            <button class="continuar" onclick="avancarPagina()">continuar</button>
         </section>
     </main>
 
@@ -103,5 +104,6 @@
             </div>
         </div>
     </footer>
+    <script src="./FuncoesAvancarCarregar.js"></script>
 </body>
 </html>
